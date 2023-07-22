@@ -1,5 +1,5 @@
-medida = float(input("Digite uma distancia em metros\nR:"))
-cm = medida * 100
-mm = medida * 1000
-km = medida / 1000
-print(" {} corresponde a {}cm, {}mm e {}km".format(medida, cm, mm, km))
+p_nota = float(input("Digite a primeira nota\n"))
+s_nota = float(input("Digite a segunda nota\n"))
+media = (p_nota + s_nota) / 2
+
+print("A media entre {:.1f} e {:.1f} é igual a {:.1f}".format(p_nota, s_nota, media))
