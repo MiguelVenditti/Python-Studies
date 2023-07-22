@@ -1,5 +1,7 @@
-p_nota = float(input("Digite a primeira nota\n"))
-s_nota = float(input("Digite a segunda nota\n"))
-media = (p_nota + s_nota) / 2
+n = int(input("Digite um numero!\nR:"))
+dobro = n * 2
+triplo = n * 3
+rquadra = n ** (1/2)
 
-print("A media entre {:.1f} e {:.1f} é igual a {:.1f}".format(p_nota, s_nota, media))
+print("O dobro é {}, O tiplo é {} e a raiz quadrada de {} é igual a {}".format(dobro,triplo,n,rquadra))
+

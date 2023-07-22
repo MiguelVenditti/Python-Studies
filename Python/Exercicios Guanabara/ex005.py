@@ -1,7 +1,5 @@
-n = int(input("Digite um numero!\nR:"))
-dobro = n * 2
-triplo = n * 3
-rquadra = n ** (1/2)
+n = int(input("Digite um numero\nR:"))
+antecessor = n - 1
+sucessor = n + 1
 
-print("O dobro é {}, O tiplo é {} e a raiz quadrada de {} é igual a {}".format(dobro,triplo,n,rquadra))
-
+print("Voce digitou o numero {}, seu antecessor é o {} e seu sucessor é {}!".format(n,antecessor,sucessor))
