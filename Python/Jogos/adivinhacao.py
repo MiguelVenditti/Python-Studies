@@ -8,15 +8,23 @@ def jogar():
     print(27 * "*")
     print("Para sair dessa! Voce deverá adivinhar um Numero Secreto!")
 
-# Nivel da Dificuldade
     total_chances = 0
     pontos = 1000
     numero_secreto = random.randrange(0, 101)
 
-    dificuldade = int(input("Qual o seu nivel de habilidade?\n(1) Expert\n(2) Intermediario\n(3) Amador\nR:"))
-    print("Ok!")
+# Nivel de dificuldade
 
-# Loop contra erro!
+    while True:
+        dificuldade = input("Qual o seu nivel de habilidade?\n(1) Expert\n(2) Intermediario\n(3) Amador\nR:")
+
+        if dificuldade in ('1', '2', '3'):
+            dificuldade = int(dificuldade)
+            print("Ok!")
+            break
+        else:
+            print("Por favor, selecione uma opção válida.")
+
+# Validando resposta!
 
     if (dificuldade == 1):
         total_chances = 5
