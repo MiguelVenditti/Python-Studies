@@ -1,3 +1,6 @@
+"""Exercício Python 060: Faça um programa que leia um número qualquer e mostre o seu fatorial.
+"""
+
 x = int(input("Digite seu Número para\ncalcular seu Fatorial: "))
 count = x
 

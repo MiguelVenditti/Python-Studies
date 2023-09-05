@@ -1,3 +1,6 @@
+"""Exercício Python 033: Faça um programa que leia três números e mostre qual é o maior e qual é o menor."""
+
+
 val_1 = int(input("Digite um numero: "))
 val_2 = int(input("Digite um novo numero: "))
 val_3 = int(input("Digite mais um numer: "))
