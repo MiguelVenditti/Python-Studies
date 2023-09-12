@@ -64,5 +64,3 @@ while True:
         print("Por favor, escolha uma opção valida!")
         print("{:=^30}".format(''))
         sleep(2)
-
-
