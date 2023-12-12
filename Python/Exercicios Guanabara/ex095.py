@@ -1,5 +1,5 @@
-"""Exercício Python 095: Aprimore o desafio 93 para que ele funcione com vários jogadores,
-incluindo um sistema de visualização de detalhes do aproveitamento de cada jogador."""
+"""Exercicio Python 095: Aprimore o desafio 93 para que ele funcione com vï¿½rios jogadores,
+incluindo um sistema de visualizaï¿½ï¿½o de detalhes do aproveitamento de cada jogador."""
 
 
 cadastro = list()
@@ -15,7 +15,7 @@ while True:
     gol = list()
 
     for x in range(0, partidas):
-        gol.append(int(input("Quantos gols na {}ª partida? ".format(x + 1))))
+        gol.append(int(input("Quantos gols na {}ï¿½ partida? ".format(x + 1))))
 
     while True:
         terminar = str(input("Quer continuar? [S/N] ").strip().upper()[0])
@@ -51,14 +51,14 @@ while True:
     if (detalhes == 999):
         break
     if (detalhes < 0 or detalhes > len(cadastro) -1):
-        print("Digite uma opção valida!")
+        print("Digite uma opï¿½ï¿½o valida!")
     else:
         print("     -- LEVANTAMENTO DO JOGADOR {} -- ".format(cadastro[detalhes]['nome']))
 
         for pos, gols in enumerate(cadastro[detalhes]['gols']):
             print("No jogo {} fez {} gols.".format(pos + 1, gols))
 
-""" A primeira vez que solucionei o desafio, utilizei o codigo abaixo! Porém a versão acima é mais curta e legivel!
+""" A primeira vez que solucionei o desafio, utilizei o codigo abaixo! Porï¿½m a versï¿½o acima ï¿½ mais curta e legivel!
 
         for x in range(0, len(cadastro[detalhes]['gols'])):
             print("No jogo {} fez {} gols.".format(x + 1, cadastro[detalhes]['gols'][x]))"""
